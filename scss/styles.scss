@@ -18,10 +18,37 @@ $colors: (
 // styles
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  color: color(primary-dark-blue)
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .container-fluid {
-  padding: 2% 3%;
+  padding: 2% 4%;
+}
+
+
+// title page
+
+.title-content {
+
+  padding-top: 3.5rem;
+
+  .title-text {
+    align-self: center;
+  }
+
+  p {
+    width: 560px;
+  }
+}
+
+.title-image {
+  width: 90%;
 }
