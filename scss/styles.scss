@@ -38,6 +38,8 @@ h1 {
 
 .title-content {
 
+  margin-top: 4%;
+  margin-bottom: 8%;
   padding-top: 3.5rem;
 
   .title-text {
@@ -47,8 +49,30 @@ h1 {
   p {
     width: 560px;
   }
+
+  .email-box {
+    padding: 1.5% 20% 1.5% 2%;
+    margin-right: 1.5%;
+
+  }
+
+  .big-btn {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 .title-image {
   width: 90%;
+}
+
+.bg-curve {
+  // width: 1440px;
+  // padding-left: 0;
+}
+
+// content page
+
+#content-page {
+  background-color: color(neurtral-gb);
 }
