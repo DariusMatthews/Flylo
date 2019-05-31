@@ -1,0 +1,22 @@
+// Map Colors
+
+$colors: (
+  primary-dark-blue: hsl(243, 87%, 12%),
+  primary-blue: hsl(238, 45%, 44%),
+  accent-blue: hsl(224, 93%, 58%),
+  accent-green: hsl(170, 45%, 43%),
+  neurtral-gb: hsl(240, 75%, 98%),
+  neutral-gray: hsl(0, 0%, 75%),
+);
+
+// Color function
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
