@@ -56,7 +56,7 @@
           <button class="btn btn-lg btn-primary big-btn" type="button" name="button">Get Started</button>
         </div>
         <div class="col-lg-6 col-sm-12">
-            <img class="title-image" src="images/illustration-1.svg" alt="">
+            <img class="image" src="images/illustration-1.svg" alt="">
         </div>
       </div>
 
@@ -75,9 +75,9 @@
 
   <section id="content-page">
 
-    <div class="container-fluid">
+    <div class="container-fluid content-container">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 content-2">
           <h1>Stay productive, wherever you are</h1>
           <p>
             Never let location be an issue when accessing your files. Fylo has you
@@ -87,13 +87,28 @@
             live collaboration. No email attachments required!
           </p>
           <div class="flylo-works">
-            <a class="link-work" href="#">See how Fylo works<img src="images/icon-arrow.svg" alt="arrow"></a>
+            <a class="link-work" href="#">See how Fylo works <img src="images/icon-arrow.svg" alt="arrow"></a>
           </div>
 
-          <!-- TODO:add card -->
+          <!-- testimonial card -->
+          <div class="card col-lg-7 shadow rounded">
+            <div class="card-body">
+              <img class="quotes" src="images/icon-quotes.svg" alt="quotes"><br>
+              <p class="card-text">Fylo has improved our team productivity by an order of magnitude. Since
+              making the switch our team has become a well-oiled collaboration machine.</p>
+            </div>
+            <!-- TODO: fix image/name so they are next to each other -->
+            <img class="testimonial-image" src="images/avatar-testimonial.jpg" alt="avatar">
+            <div class="testimonial-name">
+              <!-- <img class="testimonial-image" src="images/avatar-testimonial.jpg" alt="avatar"> -->
+              <h5 class="name">Kyle Burton</h5>
+              <p>Founder & CEO, Huddle</p>
+            </div>
+
+          </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/illustration-2.svg" alt="pic-2">
+          <img class="image" src="images/illustration-2.svg" alt="pic-2">
 
         </div>
       </div>
@@ -101,31 +116,60 @@
 
   </section>
 
+  <!-- call to action -->
 
-  Fylo has improved our team productivity by an order of magnitude. Since
-  making the switch our team has become a well-oiled collaboration machine.
+  <section id="cta">
+    <div class="container-fluid row">
+      <div class="col-lg-6 col-sm-12">
+        <div class="cta-content">
+          <h3>Get early access today</h3>
+          <p>It only takes a minute to sign up and our free starter tier is extremely generous.
+          If you have any questions, our support team would be happy to help you.</p>
+        </div>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      <div class="cta-email">
+        <input type="email" placeholder="email@example.com" name="" value="">
+        <br>
+        <button class="btn btn-lg btn-primary big-btn" type="button" name="button">Get Started For Free</button>
+      </div>
+    </div>
+    </div>
+  </section>
 
-  Kyle Burton
-  Founder & CEO, Huddle
+  <!-- footer -->
 
-  Get early access today
+  <footer id="footer">
+    <div class="container-fluid row">
+      <div class="col-lg-4 col-sm-12">
+        <!-- TODO: add flylo/phone/email images -->
+        <img src="" alt="">
+        <p>Phone: +1-543-123-4567</p>
+        <p>example@fylo.com</p>
+      </div>
+      <div class="col-lg-4 col-sm-12 row">
+        <div class="col-lg-2">
+          <ul>
+            <li>About Us</li>
+            <li>Jobs</li>
+            <li>Press</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <ul>
+            <li>Contact Us</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <!-- TODO: add social media font awesome icons -->
+      </div>
+    </div>
+  </footer>
 
-  It only takes a minute to sign up and our free starter tier is extremely generous.
-  If you have any questions, our support team would be happy to help you.
-
-  Get Started For Free
-
-  Phone: +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
 
 </body>
 

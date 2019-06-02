@@ -2,7 +2,7 @@
 
 $colors: (
   primary-dark-blue: hsl(243, 87%, 12%),
-  primary-blue: hsl(238, 45%, 44%),
+  primary-blue: hsl(238, 22%, 44%),
   accent-blue: hsl(224, 93%, 58%),
   accent-green: hsl(170, 45%, 43%),
   neurtral-gb: hsl(240, 75%, 98%),
@@ -62,7 +62,7 @@ h1 {
   }
 }
 
-.title-image {
+.image {
   width: 90%;
 }
 
@@ -75,4 +75,104 @@ h1 {
 
 #content-page {
   background-color: color(neurtral-gb);
+
+  .content-2 {
+
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+    p {
+      width: 500px;
+    }
+
+    h1 {
+      font-size: 35px;
+      margin-bottom: 20px;
+    }
+
+    .flylo-works {
+      display: inline-block;
+      border-bottom: 1px solid;
+      border-color: color(accent-green);
+      padding-bottom: 2px;
+      margin-bottom: 50px;
+
+      .link-work {
+        text-decoration: none;
+        color: color(accent-green);
+      }
+    }
+
+    // card styles
+
+    .quotes {
+      width: 1.1rem;
+      padding-bottom: 10px;
+      margin-top: 15px;
+    }
+
+    .card-text {
+      width: 320px;
+      line-height: 1.5;
+    }
+
+    .testimonial {
+      // display: inline-flex;
+    }
+
+    .testimonial-image {
+      width: 12%;
+      border-radius: 100%;
+      margin-left: 20px;
+      // margin-bottom: 25px;
+      // display: inline-flex;
+    }
+
+    .testimonial-name {
+      font-size: 12px;
+      line-height: .5;
+      position: relative;
+      top: -42px;
+      margin-left: 75px;
+      margin-bottom: -22px;
+    }
+
+  }
+
+  .image {
+    padding-top: 80px;
+  }
 }
+
+// call to action page
+
+#cta {
+
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: color(primary-blue);
+
+
+  .cta-content {
+    color: #fff;
+    line-height: 1.5;
+    width: 500px;
+
+    h3 {
+      margin-bottom: 18px;
+    }
+  }
+
+  .cta-email {
+
+    margin-left: 6
+    0px;
+
+    input {
+      margin-bottom: 15px;
+      padding: 12px 300px 12px 12px;
+    }
+  }
+}
+
+// TODO: Style footer
