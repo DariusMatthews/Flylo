@@ -176,3 +176,61 @@ h1 {
 }
 
 // TODO: Style footer
+
+#footer {
+  background-color: color(primary-dark-blue);
+  color: #fff;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+  div {
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+    .footer-logo{
+      //brightness makes image black, invert turns it white
+      filter: brightness(0) invert(1);
+      padding-bottom: 20px;
+    }
+
+    p {
+      img {
+        padding-right: 10px;
+      }
+    }
+
+    .footer-list {
+
+      padding-right: 150px;
+      margin-top: 10px;
+
+      ul {
+        list-style: none;
+
+        li {
+          line-height: 2.5;
+          // unwraps the list order text
+          white-space: nowrap;
+        }
+      }
+    }
+
+    // second footer list that needs to be pushed right
+    .fl-2 {
+      margin-left: 60px;
+    }
+
+    .footer-social-media {
+      padding-left: 140px;
+      margin-top: 70px;
+
+      i {
+        padding-right: 15px;
+      }
+    }
+  }
+}

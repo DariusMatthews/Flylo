@@ -84,3 +84,33 @@ h1 {
     #cta .cta-email input {
       margin-bottom: 15px;
       padding: 12px 300px 12px 12px; }
+
+#footer {
+  background-color: #070439;
+  color: #fff; }
+  #footer a {
+    text-decoration: none;
+    color: #fff; }
+  #footer div {
+    padding-top: 50px;
+    padding-bottom: 30px; }
+    #footer div .footer-logo {
+      filter: brightness(0) invert(1);
+      padding-bottom: 20px; }
+    #footer div p img {
+      padding-right: 10px; }
+    #footer div .footer-list {
+      padding-right: 150px;
+      margin-top: 10px; }
+      #footer div .footer-list ul {
+        list-style: none; }
+        #footer div .footer-list ul li {
+          line-height: 2.5;
+          white-space: nowrap; }
+    #footer div .fl-2 {
+      margin-left: 60px; }
+    #footer div .footer-social-media {
+      padding-left: 140px;
+      margin-top: 70px; }
+      #footer div .footer-social-media i {
+        padding-right: 15px; }
