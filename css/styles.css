@@ -61,7 +61,7 @@ h1 {
       margin-left: 20px; }
     #content-page .content-2 .testimonial-name {
       font-size: 12px;
-      line-height: .5;
+      line-height: 0.5;
       position: relative;
       top: -42px;
       margin-left: 75px;
@@ -80,7 +80,7 @@ h1 {
     #cta .cta-content h3 {
       margin-bottom: 18px; }
   #cta .cta-email {
-    margin-left: 6 0px; }
+    margin-left: 6 0; }
     #cta .cta-email input {
       margin-bottom: 15px;
       padding: 12px 300px 12px 12px; }
@@ -145,10 +145,15 @@ h1 {
         text-align: center;
         margin: 0 auto; }
       .content-container .content-2 .sub-text {
-        margin: 0 auto 1rem; }
+        margin: 0 auto 3.5rem;
+        font-size: 1.5rem; }
       .content-container .content-2 .flylo-works {
         margin-left: 38%;
         font-size: 1.2rem; }
+    .content-container .card {
+      width: 50%;
+      margin-left: 25%;
+      margin-top: 1.5rem; }
     .content-container .image {
       order: 1;
       position: relative;
@@ -159,8 +164,28 @@ h1 {
     justify-content: center;
     text-align: center; }
     #cta .cta-content {
-      margin: 0 auto; }
+      margin: 0 auto;
+      font-size: 1.3rem; }
     #cta .cta-email {
       margin-top: 1rem; }
-      #cta .cta-email input, #cta .cta-email button {
-        width: 80%; } }
+      #cta .cta-email button,
+      #cta .cta-email input {
+        width: 80%; }
+  #footer {
+    font-size: 1.5rem;
+    padding: 3rem 4.5rem; }
+    #footer .footer-logo {
+      width: 50%; }
+    #footer .footer-list {
+      padding-left: 0;
+      margin-left: -1.25rem; }
+    #footer div .fl-2 {
+      margin-left: -1.25rem; }
+    #footer div
+.footer-social-media {
+      display: inline-flex;
+      justify-content: center;
+      padding-left: 50px; }
+      #footer div
+.footer-social-media a i {
+        padding-right: 3rem; } }

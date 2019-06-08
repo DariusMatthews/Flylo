@@ -1,5 +1,4 @@
 // Map Colors
-
 $colors: (
   primary-dark-blue: hsl(243, 87%, 12%),
   primary-blue: hsl(238, 22%, 44%),
@@ -8,19 +7,15 @@ $colors: (
   neurtral-gb: hsl(240, 75%, 98%),
   neutral-gray: hsl(0, 0%, 75%),
 );
-
 // Color function
-
 @function color($color-name) {
   @return map-get($colors, $color-name);
 }
-
 // styles
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  color: color(primary-dark-blue)
+  color: color(primary-dark-blue);
 }
 
 h1 {
@@ -32,12 +27,8 @@ h1 {
 .container-fluid {
   padding: 2% 4%;
 }
-
-
 // title page
-
 .title-content {
-
   margin-top: 4%;
   margin-bottom: 8%;
   padding-top: 3.5rem;
@@ -53,7 +44,6 @@ h1 {
   .email-box {
     padding: 1.5% 20% 1.5% 2%;
     margin-right: 1.5%;
-
   }
 
   .big-btn {
@@ -70,14 +60,11 @@ h1 {
   // width: 1440px;
   // padding-left: 0;
 }
-
 // content page
-
 #content-page {
   background-color: color(neurtral-gb);
 
   .content-2 {
-
     margin-top: 40px;
     margin-bottom: 70px;
 
@@ -102,9 +89,7 @@ h1 {
         color: color(accent-green);
       }
     }
-
     // card styles
-
     .quotes {
       width: 1.1rem;
       padding-bottom: 10px;
@@ -130,28 +115,23 @@ h1 {
 
     .testimonial-name {
       font-size: 12px;
-      line-height: .5;
+      line-height: 0.5;
       position: relative;
       top: -42px;
       margin-left: 75px;
       margin-bottom: -22px;
     }
-
   }
 
   .image {
     padding-top: 80px;
   }
 }
-
 // call to action page
-
 #cta {
-
   padding-top: 70px;
   padding-bottom: 70px;
   background: color(primary-blue);
-
 
   .cta-content {
     color: #fff;
@@ -164,9 +144,7 @@ h1 {
   }
 
   .cta-email {
-
-    margin-left: 6
-    0px;
+    margin-left: 6 0;
 
     input {
       margin-bottom: 15px;
@@ -174,9 +152,7 @@ h1 {
     }
   }
 }
-
 // TODO: Style footer
-
 #footer {
   background-color: color(primary-dark-blue);
   color: #fff;
@@ -186,12 +162,11 @@ h1 {
     color: #fff;
   }
 
-
   div {
     padding-top: 50px;
     padding-bottom: 30px;
 
-    .footer-logo{
+    .footer-logo {
       //brightness makes image black, invert turns it white
       filter: brightness(0) invert(1);
       padding-bottom: 20px;
@@ -204,7 +179,6 @@ h1 {
     }
 
     .footer-list {
-
       padding-right: 150px;
       margin-top: 10px;
 
@@ -218,7 +192,6 @@ h1 {
         }
       }
     }
-
     // second footer list that needs to be pushed right
     .fl-2 {
       margin-left: 60px;
@@ -234,8 +207,6 @@ h1 {
     }
   }
 }
-
-
 // making website completely responsive
 @media only screen and (max-width: 991px) {
 
@@ -260,7 +231,6 @@ h1 {
 
       button {
         width: 75%;
-
       }
     }
 
@@ -287,7 +257,8 @@ h1 {
       }
 
       .sub-text {
-        margin: 0 auto 1rem;
+        margin: 0 auto 3.5rem;
+        font-size: 1.5rem;
       }
 
       .flylo-works {
@@ -296,14 +267,18 @@ h1 {
       }
     }
 
+    .card {
+      width: 50%;
+      margin-left: 25%;
+      margin-top: 1.5rem;
+    }
+
     .image {
       order: 1;
       position: relative;
       left: 7.5rem;
       width: 70%;
     }
-
-
   }
 
   #cta {
@@ -313,20 +288,58 @@ h1 {
 
     .cta-content {
       margin: 0 auto;
+      font-size: 1.3rem;
     }
 
     .cta-email {
       margin-top: 1rem;
 
-      input, button {
+      button,
+      input {
         width: 80%;
       }
     }
 
-    //TODO: fix card
-
   }
-
   //TODO: Make footer responsive
 
+  #footer {
+
+    font-size: 1.5rem;
+    padding: 3rem 4.5rem;
+
+    .footer-logo {
+      width: 50%;
+    }
+
+    .footer-list {
+      padding-left: 0;
+      margin-left: -1.25rem;
+    }
+
+    div {
+      .fl-2 {
+        margin-left: -1.25rem;
+      }
+    }
+
+    div
+    .footer-social-media {
+        display: inline-flex;
+        justify-content: center;
+        padding-left: 50px;
+
+        a {
+          i {
+            padding-right: 3rem;
+          }
+        }
+
+    }
+
+  }
 }
+
+//TODO: Set media query from 991px to 1126px
+
+//TODO: set media query for max width 760px
