@@ -114,3 +114,53 @@ h1 {
       margin-top: 70px; }
       #footer div .footer-social-media i {
         padding-right: 15px; }
+
+@media only screen and (max-width: 991px) {
+  .title-content {
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+    .title-content .title-text {
+      order: 2; }
+      .title-content .title-text p {
+        margin: 2rem auto;
+        font-size: 1.5rem; }
+      .title-content .title-text input {
+        display: block;
+        margin: 0 auto 1rem;
+        width: 75%; }
+      .title-content .title-text button {
+        width: 75%; }
+    .title-content .title-image {
+      order: 1;
+      margin-bottom: 1.5rem; }
+      .title-content .title-image .image {
+        width: 75%; }
+  .content-container {
+    display: flex; }
+    .content-container .content-2 {
+      order: 2; }
+      .content-container .content-2 h1 {
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto; }
+      .content-container .content-2 .sub-text {
+        margin: 0 auto 1rem; }
+      .content-container .content-2 .flylo-works {
+        margin-left: 38%;
+        font-size: 1.2rem; }
+    .content-container .image {
+      order: 1;
+      position: relative;
+      left: 7.5rem;
+      width: 70%; }
+  #cta {
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+    #cta .cta-content {
+      margin: 0 auto; }
+    #cta .cta-email {
+      margin-top: 1rem; }
+      #cta .cta-email input, #cta .cta-email button {
+        width: 80%; } }

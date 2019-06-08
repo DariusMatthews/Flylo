@@ -234,3 +234,99 @@ h1 {
     }
   }
 }
+
+
+// making website completely responsive
+@media only screen and (max-width: 991px) {
+
+  .title-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .title-text {
+      order: 2;
+
+      p {
+        margin: 2rem auto;
+        font-size: 1.5rem;
+      }
+
+      input {
+        display: block;
+        margin: 0 auto 1rem;
+        width: 75%;
+      }
+
+      button {
+        width: 75%;
+
+      }
+    }
+
+    .title-image {
+      order: 1;
+      margin-bottom: 1.5rem;
+
+      .image {
+        width: 75%;
+      }
+    }
+  }
+
+  .content-container {
+    display: flex;
+
+    .content-2 {
+      order: 2;
+
+      h1 {
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      .sub-text {
+        margin: 0 auto 1rem;
+      }
+
+      .flylo-works {
+        margin-left: 38%;
+        font-size: 1.2rem;
+      }
+    }
+
+    .image {
+      order: 1;
+      position: relative;
+      left: 7.5rem;
+      width: 70%;
+    }
+
+
+  }
+
+  #cta {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .cta-content {
+      margin: 0 auto;
+    }
+
+    .cta-email {
+      margin-top: 1rem;
+
+      input, button {
+        width: 80%;
+      }
+    }
+
+    //TODO: fix card
+
+  }
+
+  //TODO: Make footer responsive
+
+}
