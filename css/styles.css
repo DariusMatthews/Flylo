@@ -115,6 +115,19 @@ h1 {
       #footer div .footer-social-media i {
         padding-right: 15px; }
 
+@media only screen and (max-width: 1369px) {
+  #footer div .fl-2 {
+    margin-left: 0; } }
+
+@media only screen and (max-width: 1126px) {
+  #title-page .title-text p {
+    width: 450px; }
+  #title-page .email-box {
+    margin-bottom: 1rem;
+    padding-right: 15.625rem; }
+  #cta .cta-content p {
+    width: 450px; } }
+
 @media only screen and (max-width: 991px) {
   .title-content {
     display: flex;
@@ -159,6 +172,8 @@ h1 {
       position: relative;
       left: 7.5rem;
       width: 70%; }
+  #content-page div .card {
+    width: 375px; }
   #cta {
     display: flex;
     justify-content: center;
@@ -170,12 +185,13 @@ h1 {
       margin-top: 1rem; }
       #cta .cta-email button,
       #cta .cta-email input {
-        width: 80%; }
+        width: 85%; }
   #footer {
     font-size: 1.5rem;
     padding: 3rem 4.5rem; }
     #footer .footer-logo {
-      width: 50%; }
+      width: 50%;
+      margin-bottom: 5rem; }
     #footer .footer-list {
       padding-left: 0;
       margin-left: -1.25rem; }
@@ -189,3 +205,7 @@ h1 {
       #footer div
 .footer-social-media a i {
         padding-right: 3rem; } }
+
+@media only screen and (max-width: 760px) {
+  #content-page div .card {
+    width: 375px; } }
