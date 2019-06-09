@@ -56,10 +56,6 @@ h1 {
   width: 90%;
 }
 
-.bg-curve {
-  // width: 1440px;
-  // padding-left: 0;
-}
 // content page
 #content-page {
   background-color: color(neurtral-gb);
@@ -152,7 +148,7 @@ h1 {
     }
   }
 }
-// TODO: Style footer
+//footer
 #footer {
   background-color: color(primary-dark-blue);
   color: #fff;
@@ -207,7 +203,41 @@ h1 {
     }
   }
 }
+
 // making website completely responsive
+
+@media only screen and (max-width: 1369px) {
+
+  #footer {
+
+    div .fl-2 {
+      margin-left: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 1126px) {
+
+  #title-page {
+
+    .title-text p {
+      width: 450px;
+    }
+
+    .email-box {
+      margin-bottom: 1rem;
+      padding-right: 15.625rem;
+    }
+  }
+
+  #cta {
+
+    .cta-content p {
+      width: 450px;
+    }
+  }
+}
+
 @media only screen and (max-width: 991px) {
 
   .title-content {
@@ -281,6 +311,12 @@ h1 {
     }
   }
 
+  #content-page {
+    div .card {
+      width: 375px;
+    }
+  }
+
   #cta {
     display: flex;
     justify-content: center;
@@ -296,12 +332,11 @@ h1 {
 
       button,
       input {
-        width: 80%;
+        width: 85%;
       }
     }
 
   }
-  //TODO: Make footer responsive
 
   #footer {
 
@@ -310,6 +345,7 @@ h1 {
 
     .footer-logo {
       width: 50%;
+      margin-bottom: 5rem;
     }
 
     .footer-list {
@@ -340,6 +376,11 @@ h1 {
   }
 }
 
-//TODO: Set media query from 991px to 1126px
+@media only screen and (max-width: 760px) {
 
-//TODO: set media query for max width 760px
+  #content-page {
+    div .card {
+      width: 375px;
+    }
+  }
+}
