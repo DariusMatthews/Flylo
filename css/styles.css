@@ -52,6 +52,8 @@ h1 {
       width: 1.1rem;
       padding-bottom: 10px;
       margin-top: 15px; }
+    #content-page .content-2 .card {
+      min-width: 377px; }
     #content-page .content-2 .card-text {
       width: 320px;
       line-height: 1.5; }
