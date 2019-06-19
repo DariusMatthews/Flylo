@@ -221,6 +221,16 @@ h1 {
   #content-page div .card {
     width: 375px; } }
 
+@media only screen and (max-width: 414px) {
+  body {
+    width: 540px; }
+  #content-page .content-2 .sub-text {
+    width: 430px; }
+  #content-page .content-2 .flylo-works {
+    margin-left: 150px; }
+  #content-page .card {
+    margin-left: 65px; } }
+
 @media only screen and (max-width: 375px) {
   body {
     width: 525px; }

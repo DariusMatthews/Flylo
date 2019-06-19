@@ -404,7 +404,25 @@ h1 {
 
 //TODO: fix screen issue at width 414px
 @media only screen and (max-width: 414px) {
+  body {
+    width: 540px;
+  }
 
+  #content-page {
+    .content-2 {
+      .sub-text {
+        width: 430px;
+      }
+
+      .flylo-works {
+        margin-left: 150px;
+      }
+    }
+
+    .card {
+      margin-left: 65px;
+    }
+  }
 }
 
 @media only screen and (max-width: 375px) {
