@@ -56,6 +56,15 @@ h1 {
   width: 90%;
 }
 
+.bg-curve {
+  margin-left: 0;
+  margin-right: 0;
+
+  .bg-hill {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 // content page
 #content-page {
   background-color: color(neurtral-gb);
@@ -120,6 +129,10 @@ h1 {
       top: -42px;
       margin-left: 75px;
       margin-bottom: -22px;
+
+      p {
+        display: inline;
+      }
     }
   }
 
@@ -385,6 +398,53 @@ h1 {
   #content-page {
     div .card {
       width: 375px;
+    }
+  }
+}
+
+//TODO: fix screen issue at width 414px
+@media only screen and (max-width: 414px) {
+
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    width: 525px;
+  }
+
+  #content-page {
+    .content-container {
+      .row {
+        width: 515px;
+      }
+
+      .sub-text {
+        width: 430px;
+        margin-left: 40px;
+      }
+
+      .flylo-works {
+        margin-left: 155px;
+      }
+
+      .card {
+        margin-left: 65px;
+      }
+
+      .image-containter {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
+  #cta {
+    .cta-content {
+      width: 480px;
+
+      h3 {
+        display: inline-block;
+      }
     }
   }
 }

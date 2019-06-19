@@ -29,6 +29,13 @@ h1 {
 .image {
   width: 90%; }
 
+.bg-curve {
+  margin-left: 0;
+  margin-right: 0; }
+  .bg-curve .bg-hill {
+    padding-left: 0;
+    padding-right: 0; }
+
 #content-page {
   background-color: #f6f6fe; }
   #content-page .content-2 {
@@ -68,6 +75,8 @@ h1 {
       top: -42px;
       margin-left: 75px;
       margin-bottom: -22px; }
+      #content-page .content-2 .testimonial-name p {
+        display: inline; }
   #content-page .image {
     padding-top: 80px; }
 
@@ -211,3 +220,23 @@ h1 {
 @media only screen and (max-width: 760px) {
   #content-page div .card {
     width: 375px; } }
+
+@media only screen and (max-width: 375px) {
+  body {
+    width: 525px; }
+  #content-page .content-container .row {
+    width: 515px; }
+  #content-page .content-container .sub-text {
+    width: 430px;
+    margin-left: 40px; }
+  #content-page .content-container .flylo-works {
+    margin-left: 155px; }
+  #content-page .content-container .card {
+    margin-left: 65px; }
+  #content-page .content-container .image-containter {
+    padding-left: 0;
+    padding-right: 0; }
+  #cta .cta-content {
+    width: 480px; }
+    #cta .cta-content h3 {
+      display: inline-block; } }
